@@ -4,6 +4,7 @@
   "description": "hw4-7",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,10 @@
     "normalize.css": "^8.0.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5"
   }
 }
