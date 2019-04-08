@@ -6,7 +6,6 @@ let path = require('path');
 	        path: path.join(__dirname, './dist'),
 	        filename: 'bundle.js',
 	        publicPath: './dist/'
-<<<<<<< HEAD
     },
     module:{
         rules:[{
@@ -21,7 +20,3 @@ let path = require('path');
         }]
          }
    }
-=======
-	}
-   }
->>>>>>> 110619044
